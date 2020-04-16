@@ -11,7 +11,6 @@
 
 /**
  * @type {import('@azure/functions').AzureFunction}
- * @param {import('@azure/functions').Context} context
  */
 module.exports = async function (context) {
     return `Hello ${context.bindings.name}!`;
